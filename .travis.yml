@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+  
+group: legacy-gce
+
+cache:
+  directories:
+  - ~/.npm
+  - ~/.cache
